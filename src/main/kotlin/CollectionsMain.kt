@@ -23,6 +23,8 @@ fun main(args: Array<String>) {
     //var theArrayList = mutableListOf<String>() // we can add elements when we initialize it
     //var theArrayList = arrayListOf<String>()  // we can add elements when we initialize it
     //var theArrayList = ArrayList<String>()    // we can NOT add elements when we initialize it
+    
+    val notNullList = listOfNotNull("This","list","can't","have",null)
     var theArrayList = arrayListOf<String>("omer", "ali") // arraylist with generic
     theArrayList.add("osman")
     theArrayList.remove("osman")
